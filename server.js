@@ -24,7 +24,8 @@ mongoose
 // Serve static assets (build folder) if in production
 if (process.env.NODE_ENV === "production") {
   // Set static folder
-  app.use(express.static("client/build"));
+  // this code found from https://stackoverflow.com/questions/46354551/react-node-app-deployed-to-heroku-shows-a-blank-screen
+  app.use('/static', express.static(path.join(__dirname, 'client/build')));
 
   app.get("*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
