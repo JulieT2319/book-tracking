@@ -8,11 +8,11 @@
     "react-dom": "^16.6.3",
     "react-scripts": "^2.1.1"
   },
-  "homepage": "https://shelf-of-many-genres.herokuapp.com/",
+  "homepage": "https://shelf-of-many-genres.herokuapp.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "browserslist": [
