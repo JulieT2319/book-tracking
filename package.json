@@ -17,6 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/JulieT2319/book-tracking.git"
   },
+  "homepage": "https://shelf-of-many-genres.herokuapp.com/",
   "author": "Julie Theriault",
   "license": "ISC",
   "devDependencies": {

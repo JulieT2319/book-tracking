@@ -8,6 +8,7 @@
     "react-dom": "^16.6.3",
     "react-scripts": "^2.1.1"
   },
+  "homepage": "https://shelf-of-many-genres.herokuapp.com/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
